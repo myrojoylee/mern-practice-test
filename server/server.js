@@ -5,7 +5,7 @@ const db = require('./db/connection');
 
 const { ApolloServer } = require('@apollo/server');
 const { expressMiddleware } = require('@apollo/server/express4');
-// const { typeDefs, resolvers } = require('./schemas');
+const { typeDefs, resolvers } = require('./schemas');
 // const { contextTokenizer } = require('./utils/auth');
 const cors = require('cors');
 
